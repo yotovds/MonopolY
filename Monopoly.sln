@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F3C2F270-A22B-4668-B027-63D9AAB83093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monopoly.Web", "src\Web\Monopoly.Web\Monopoly.Web.csproj", "{E29FBB00-2D28-4986-AEF2-6956F61C6438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monopoly.Web", "src\Web\Monopoly.Web\Monopoly.Web.csproj", "{E29FBB00-2D28-4986-AEF2-6956F61C6438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{3F7FAA41-A48F-455D-A1EC-0A2B873969DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monopoly.Data", "src\Data\Monopoly.Data\Monopoly.Data.csproj", "{497D52BD-4E1C-4B02-9067-ED15967328DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monopoly.Data.Models", "src\Data\Monopoly.Data.Models\Monopoly.Data.Models.csproj", "{550026FE-3816-4018-BC5F-8E529BF5D75E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +23,22 @@ Global
 		{E29FBB00-2D28-4986-AEF2-6956F61C6438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29FBB00-2D28-4986-AEF2-6956F61C6438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29FBB00-2D28-4986-AEF2-6956F61C6438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497D52BD-4E1C-4B02-9067-ED15967328DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497D52BD-4E1C-4B02-9067-ED15967328DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497D52BD-4E1C-4B02-9067-ED15967328DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497D52BD-4E1C-4B02-9067-ED15967328DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550026FE-3816-4018-BC5F-8E529BF5D75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550026FE-3816-4018-BC5F-8E529BF5D75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550026FE-3816-4018-BC5F-8E529BF5D75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550026FE-3816-4018-BC5F-8E529BF5D75E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E29FBB00-2D28-4986-AEF2-6956F61C6438} = {F3C2F270-A22B-4668-B027-63D9AAB83093}
+		{497D52BD-4E1C-4B02-9067-ED15967328DB} = {3F7FAA41-A48F-455D-A1EC-0A2B873969DE}
+		{550026FE-3816-4018-BC5F-8E529BF5D75E} = {3F7FAA41-A48F-455D-A1EC-0A2B873969DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68E56ECF-06E3-4C78-923C-F325AAD7F854}

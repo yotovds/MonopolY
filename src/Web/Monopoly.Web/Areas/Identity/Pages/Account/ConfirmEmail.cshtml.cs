@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Monopoly.Data.Models;
-using Monopoly.Data.Models;
 
 namespace Monopoly.Web.Areas.Identity.Pages.Account
 {
